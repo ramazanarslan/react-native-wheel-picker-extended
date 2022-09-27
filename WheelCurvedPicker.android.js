@@ -43,10 +43,6 @@ class WheelCurvedPicker extends React.Component {
     this.state = this.stateFromProps(props);
   }
 
-  componentWillReceiveProps(props) {
-    this.setState(this.stateFromProps(props));
-  }
-
   render() {
     const selectedIndex = parseInt(this.state.selectedIndex);
     return (

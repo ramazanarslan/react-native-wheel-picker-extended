@@ -21,5 +21,7 @@
     "url": "https://github.com/hadimostafapour/react-native-wheel-picker-extended/issues"
   },
   "homepage": "https://github.com/hadimostafapour/react-native-wheel-picker-extended#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@react-native-picker/picker": "^2.4.6"
+  }
 }
